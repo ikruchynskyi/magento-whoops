@@ -14,6 +14,13 @@ Module yet is not available on Packagist. Please install it using local repo pat
 4. Enable module and register in the system:
 ```bin/magento module:enable Ikruchynskyi_Whoops && bin/magento setup:upgrade```
 
+## VCS onliner:
+```
+composer config repositories.magento-whoops vcs git@github.com:ikruchynskyi/magento-whoops.git \
+&& composer require ikruchynskyi/magento-whoops \
+&& bin/magento module:enable Ikruchynskyi_Whoops \
+&& bin/magento setup:upgrade
+```
 
 How it works:
 
